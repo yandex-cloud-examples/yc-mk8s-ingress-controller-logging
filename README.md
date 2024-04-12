@@ -1,5 +1,3 @@
-# Название сценария
+# Логирование Ingress-контроллеров Yandex Application Load Balancer в кластере Yandex Managed Service for Kubernetes®
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+Вы можете задать настройки логирования для L7-балансировщиков, созданных с помощью [Ingress-контроллеров](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers) [Application Load Balancer](https://yandex.cloud/ru/docs/application-load-balancer) в кластере [Managed Service for Kubernetes®](https://yandex.cloud/ru/docs/managed-kubernetes). Подготовка инфраструктуры для Managed Service for Kubernetes® и Container Registry через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/ru/docs/managed-kubernetes/tutorials/alb-ingress-controller-log-options), необходимый для настройки конфигурационный файл [k8s-and-registry-for-alb.tf](k8s-and-registry-for-alb.tf) расположен в этом репозитории.
